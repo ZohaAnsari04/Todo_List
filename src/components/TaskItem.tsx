@@ -12,6 +12,8 @@ export interface TaskProps {
   completed: boolean;
   points: number;
   priority: TaskPriority;
+  timeBlock?: string;
+  ifHaveTime?: boolean;
   onComplete: (id: string, completed: boolean) => void;
   onDelete: (id: string) => void;
 }
