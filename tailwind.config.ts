@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,19 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom colors for our mindful todo app
+				mindful: {
+					primary: '#7C3AED', // Purple
+					secondary: '#8B5CF6', // Lighter purple
+					accent: '#C4B5FD', // Very light purple
+					success: '#10B981', // Green for completed tasks
+					warning: '#F59E0B', // Amber for important tasks
+					danger: '#EF4444', // Red for urgent tasks
+					background: '#F5F3FF', // Very light purple background
+					card: '#FFFFFF', // White card backgrounds
+					text: '#1F2937', // Dark text
+					muted: '#6B7280', // Gray text
 				}
 			},
 			borderRadius: {
@@ -84,11 +98,21 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'pulse-gentle': {
+					'0%, 100%': { opacity: '1' },
+					'50%': { opacity: '0.8' },
+				},
+				'bounce-gentle': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-5px)' },
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-gentle': 'pulse-gentle 2s ease-in-out infinite',
+				'bounce-gentle': 'bounce-gentle 2s ease-in-out infinite',
 			}
 		}
 	},
