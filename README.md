@@ -1,6 +1,6 @@
 # Todo_List
 
-A productivity application designed to help you plan your day with intention and purpose, combining task management with mindfulness practices.
+A mindful productivity app that combines smart task management with time-blocking, gamification, and reflection tools. Plan your day with intention, track progress with points, and maintain focus through organized categories and mindfulness features.
 
 ![Todo_List Screenshot](./public/output.png)
 
