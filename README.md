@@ -1,8 +1,8 @@
-# Mindful Todo Adventures
+# Todo_List
 
 A productivity application designed to help you plan your day with intention and purpose, combining task management with mindfulness practices.
 
-![Mindful Todo Adventures Screenshot](./public/output.png)
+![Todo_List Screenshot](./public/output.png)
 
 ## Features
 
@@ -74,10 +74,10 @@ A productivity application designed to help you plan your day with intention and
 
 ```sh
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/ZohaAnsari04/Todo_List.git
 
 # Navigate to the project directory
-cd mindful-todo-adventures
+cd Todo_List
 
 # Install dependencies
 npm install
